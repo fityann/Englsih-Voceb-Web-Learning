@@ -1,17 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import QuizSection from './components/JOB3-Quiz/QuizSection';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// Layout
+import MainLayout from './components/layout/MainLayout';
+
+// Pages
+import LandingPage from './pages/LandingPage';
+import DashboardPage from './pages/DashboardPage';
+import CourseList from './pages/CourseList';
+import CourseDetail from './pages/CourseDetail';
+import LessonDetail from './pages/LessonDetail';
+import QuizPage from './pages/QuizPage';
+import CertificatePreview from './pages/CertificatePreview';
 
 function App() {
   return (
-    <div>
-      <QuizSection />
-    </div>
+    <Router>
+      <Routes>
+        {/* Public Routes */}
+        <Route path="/" element={<LandingPage />} />
+
+        {/* Protected/Internal Routes wrapped with MainLayout */}
+        <Route element={<MainLayout />}>
+          <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/courses" element={<CourseList />} />
+          <Route path="/courses/:courseId" element={<CourseDetail />} />
+          <Route path="/lessons/:lessonId" element={<LessonDetail />} />
+          <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/certificate" element={<CertificatePreview />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
-
-export default App
+export default App;
