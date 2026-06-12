@@ -9,67 +9,67 @@ export const categories = [
 export const popularVocabulary = [
   {
     id: 1,
-    word: 'Deployment',
-    category: 'Software Development',
-    meaning: 'The process of releasing software into a production environment.',
-    translation: 'Proses merilis aplikasi ke lingkungan produksi.',
-    example: 'The deployment was completed successfully last night.',
-    difficulty: 'Intermediate'
+    word: 'go',
+    category: 'Irregular Verbs',
+    meaning: 'Verb 1: go | Verb 2: went | Verb 3: gone (To move or travel to a place).',
+    translation: 'Pergi',
+    example: 'I went to IT lab 1 to troubleshoot the router configuration.',
+    difficulty: 'Beginner'
   },
   {
     id: 2,
-    word: 'Repository',
-    category: 'Software Development',
-    meaning: 'A central location in which data is stored and managed.',
-    translation: 'Lokasi pusat di mana data disimpan dan dikelola.',
-    example: 'Please push your code changes to the remote repository.',
+    word: 'write',
+    category: 'Irregular Verbs',
+    meaning: 'Verb 1: write | Verb 2: wrote | Verb 3: written (To create text or code).',
+    translation: 'Menulis',
+    example: 'The engineer wrote a bash script to automate server updates.',
     difficulty: 'Beginner'
   },
   {
     id: 3,
-    word: 'API (Application Programming Interface)',
-    category: 'Web Development',
-    meaning: 'A set of rules that allows different software applications to communicate with each other.',
-    translation: 'Seperangkat aturan yang memungkinkan aplikasi perangkat lunak yang berbeda untuk saling berkomunikasi.',
-    example: 'We are integrating a third-party payment API.',
-    difficulty: 'Intermediate'
+    word: 'run',
+    category: 'Irregular Verbs',
+    meaning: 'Verb 1: run | Verb 2: ran | Verb 3: run (To execute a process or program).',
+    translation: 'Menjalankan / Berjalan',
+    example: 'We ran the build command and it completed without errors.',
+    difficulty: 'Beginner'
   },
   {
     id: 4,
-    word: 'Scalability',
-    category: 'Cloud Computing',
-    meaning: 'The capability of a system, network, or process to handle a growing amount of work.',
-    translation: 'Kemampuan sistem atau jaringan untuk menangani beban kerja yang terus bertambah.',
-    example: 'Cloud services offer infinite scalability for our web applications.',
-    difficulty: 'Advanced'
+    word: 'connect',
+    category: 'Regular Verbs',
+    meaning: 'Verb 1: connect | Verb 2: connected | Verb 3: connected (To link systems or devices).',
+    translation: 'Menghubungkan',
+    example: 'The database connected successfully to the cloud server.',
+    difficulty: 'Beginner'
   },
   {
     id: 5,
-    word: 'Vulnerability',
-    category: 'Cybersecurity',
-    meaning: 'A weakness in an IT system that can be exploited by an attacker.',
-    translation: 'Kelemahan dalam sistem TI yang dapat dieksploitasi oleh penyerang.',
-    example: 'The security team discovered a severe vulnerability in the login page.',
-    difficulty: 'Intermediate'
+    word: 'send',
+    category: 'Irregular Verbs',
+    meaning: 'Verb 1: send | Verb 2: sent | Verb 3: sent (To transmit data or messages).',
+    translation: 'Mengirim',
+    example: 'The API client sent a GET request to retrieve user profile data.',
+    difficulty: 'Beginner'
   },
   {
     id: 6,
-    word: 'Bandwidth',
-    category: 'Networking',
-    meaning: 'The maximum rate of data transfer across a given path.',
-    translation: 'Tingkat maksimum transfer data melintasi jalur tertentu.',
-    example: 'Downloading large files requires a high bandwidth connection.',
+    word: 'find',
+    category: 'Irregular Verbs',
+    meaning: 'Verb 1: find | Verb 2: found | Verb 3: found (To discover or locate something).',
+    translation: 'Menemukan',
+    example: 'The security scanner found two vulnerabilities in the code dependency.',
     difficulty: 'Beginner'
   }
 ];
 
 export const featuredWord = {
-  word: 'Authentication',
-  pronunciation: '/ɔːˌθentɪˈkeɪʃn/',
-  definition: "The process of verifying a user's identity before granting access to a system.",
-  translation: "Proses memverifikasi identitas pengguna sebelum memberikan akses ke sistem.",
-  example: "Two-factor authentication adds an extra layer of security to your account.",
-  synonyms: ["Verification", "Validation", "Identification"]
+  word: 'update',
+  pronunciation: '/ʌpˈdeɪt/',
+  definition: "Verb 1: update | Verb 2: updated | Verb 3: updated (To make something more modern or bring it up to date with new information).",
+  translation: "Memperbarui",
+  example: "We updated the legacy codebase to use the latest version of React.",
+  synonyms: ["Upgrade", "Modify", "Refresh"]
 };
 
 export const learningPathSteps = [

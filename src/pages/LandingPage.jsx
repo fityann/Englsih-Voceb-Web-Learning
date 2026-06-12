@@ -96,7 +96,7 @@ export default function LandingPage() {
           </div>
           <input 
             type="text" 
-            placeholder="Search for terms like 'Deployment', 'API', or 'Scalability'..." 
+            placeholder="Search for terms like 'go', 'write', or 'run'..." 
             className="w-full bg-transparent border-none outline-none px-4 py-3 text-slate-900 dark:text-white placeholder:text-slate-400"
           />
           <button className="px-6 py-3 bg-slate-900 dark:bg-slate-800 text-white rounded-xl font-medium text-sm hover:bg-slate-800 dark:hover:bg-slate-700 transition-colors">

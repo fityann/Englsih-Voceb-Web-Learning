@@ -1,13 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { courses } from '../data/coursesData';
 
 export default function CourseList() {
-  const courses = [
-    { id: 1, title: 'English Fundamentals', category: 'Grammar', progress: 45, totalModules: 5 },
-    { id: 2, title: 'Daily Conversations', category: 'Speaking', progress: 10, totalModules: 8 },
-    { id: 3, title: 'Academic Reading', category: 'Reading', progress: 0, totalModules: 4 },
-  ];
-
   return (
     <div className="space-y-8">
       <div>
@@ -39,3 +34,4 @@ export default function CourseList() {
     </div>
   );
 }
+
