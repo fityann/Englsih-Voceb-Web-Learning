@@ -11,6 +11,7 @@ import CourseList from './pages/CourseList';
 import CourseDetail from './pages/CourseDetail';
 import LessonDetail from './pages/LessonDetail';
 import QuizPage from './pages/QuizPage';
+import QuizDetail from './pages/QuizDetail';
 import CertificatePreview from './pages/CertificatePreview';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/courses/:courseId" element={<CourseDetail />} />
           <Route path="/lessons/:lessonId" element={<LessonDetail />} />
           <Route path="/quiz" element={<QuizPage />} />
+          <Route path="/quiz/:categoryId" element={<QuizDetail />} />
           <Route path="/certificate" element={<CertificatePreview />} />
         </Route>
       </Routes>
